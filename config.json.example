@@ -1,0 +1,8 @@
+{
+  "refresh_ms": 1000,
+  "hostname_override": "",
+  "cachyos_repo_check": false,
+  "health_hosts": [],
+  "nav_command": null,
+  "electron_args": []
+}
