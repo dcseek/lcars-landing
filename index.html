@@ -78,7 +78,9 @@
 
   /* ---------- screenshots ---------- */
   #shots{padding:8px 0 80px}
-  .shots-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:20px;align-items:stretch}
+  .shots-grid{display:flex;flex-direction:column;gap:24px;align-items:center}
+  .shots-grid .shot{width:100%}
+  .shots-grid .shot:last-child{max-width:620px}
   @media(max-width:860px){.shots-grid{grid-template-columns:1fr}}
   .shot{
     border-radius:14px;overflow:hidden;border:1px solid var(--border);
