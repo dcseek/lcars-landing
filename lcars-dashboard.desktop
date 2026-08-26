@@ -1,9 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=LCARS Science Station
-Comment=Star Trek-inspired system telemetry dashboard
-Exec=%%LCARS_BIN%%
-Icon=%%LCARS_ICON%%
-Terminal=false
-Categories=System;Monitor;Utility;
-StartupNotify=false
